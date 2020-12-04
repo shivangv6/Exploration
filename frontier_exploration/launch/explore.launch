@@ -1,0 +1,7 @@
+<launch>
+
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_house.launch"/>
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_slam.launch"/>
+  <include file="$(find turtlebot3_navigation)/launch/move_base.launch"/>
+  <!--node pkg="trial" type="main_node" name="main_node" output="screen"/-->
+</launch>
